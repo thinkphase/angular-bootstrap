@@ -25,6 +25,9 @@
         .controller( "AppController", ['$scope', function($scope){
             
             var vm = this;
+            
+            $scope.title = "Angular Boilerplate";
+            
         }]);
         
 })();
